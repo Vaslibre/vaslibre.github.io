@@ -51,7 +51,7 @@ export function HeroSection() {
                             <Button
                                 size="lg"
                                 variant="outline"
-                                className="gap-2 border-border hover:bg-secondary hover:border-primary bg-transparent transition-all duration-300"
+                                className="gap-2 border-border hover:bg-secondary hover:text-primary hover:border-primary bg-transparent transition-all duration-300"
                             >
                                 Ver Eventos
                             </Button>

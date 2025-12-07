@@ -23,6 +23,13 @@ const members = [
         twitter: "#",
     },
     {
+        name: "John Vera",
+        role: "",
+        image: "/images/team/generic.png",
+        github: "#",
+        twitter: "#",
+    },
+    {
         name: "Angel Cruz",
         role: "",
         image: "/images/team/generic.png",
@@ -42,6 +49,48 @@ const members = [
         image: "/images/team/generic.png",
         github: "#",
         linkedin: "#",
+    },
+    {
+        name: "Jeidi Brito",
+        role: "",
+        image: "/images/team/generic.png",
+        github: "#",
+        twitter: "#",
+    },
+    {
+        name: "David Rondón",
+        role: "",
+        image: "/images/team/generic.png",
+        github: "#",
+        twitter: "#",
+    },
+    {
+        name: "Jorge Castellano",
+        role: "",
+        image: "/images/team/generic.png",
+        github: "#",
+        twitter: "#",
+    },
+    {
+        name: "Karla Hurtado",
+        role: "",
+        image: "/images/team/generic.png",
+        github: "#",
+        twitter: "#",
+    },
+    {
+        name: "Nani Garcia",
+        role: "",
+        image: "/images/team/generic.png",
+        github: "#",
+        twitter: "#",
+    },
+    {
+        name: "Decio Rodríguez",
+        role: "",
+        image: "/images/team/generic.png",
+        github: "#",
+        twitter: "#",
     },
 ];
 
@@ -63,22 +112,19 @@ export function MembersSection() {
                     </p>
                 </div>
 
-                <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="flex flex-wrap justify-center gap-4">
                     {members.map((member, index) => (
                         <div
                             key={index}
-                            className="group bg-card border border-border rounded-xl overflow-hidden hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/5"
+                            className="group bg-card border border-border rounded-xl overflow-hidden hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/5 w-full sm:basis-[calc((100%-1rem)/2)] lg:basis-[calc((100%-4rem)/5)]"
                         >
                             <div className="aspect-square overflow-hidden relative">
                                 <img
-                                    src={
-                                        member.image ||
-                                        "/images/placeholder.svg"
-                                    }
+                                    src={member.image}
                                     alt={member.name}
                                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                                 />
-                                <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                                <div className="absolute inset-0 bg-linear-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                             </div>
                             <div className="p-6">
                                 <h3 className="font-semibold text-lg">

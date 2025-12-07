@@ -39,7 +39,7 @@ export function Footer() {
 
                     <p className="text-sm text-muted-foreground flex items-center gap-1">
                         Hecho con{" "}
-                        <Heart className="h-4 w-4 text-red-500 fill-red-500" />{" "}
+                        <Heart className="h-4 w-4 text-[tomato] fill-[tomato]" />{" "}
                         y software libre
                     </p>
                 </div>

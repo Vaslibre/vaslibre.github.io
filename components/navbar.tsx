@@ -36,7 +36,8 @@ export function Navbar() {
                             alt="Logo"
                             width={200}
                             height={200}
-                            className="h-20 w-auto"
+                            className="h-28 w-auto"
+                            loading="eager"
                         />
                     </Link>
                     <div className="hidden md:flex items-center gap-8">
@@ -94,7 +95,7 @@ export function Navbar() {
                         </button>
                         <Link
                             href="#contact"
-                            className="bg-primary text-primary-foreground px-4 py-2 rounded-lg text-sm font-medium hover:bg-primary/90 hover:shadow-lg hover:scale-105 transition-all duration-300"
+                            className="bg-primary text-primary-foreground px-4 py-2 rounded-full text-sm font-medium hover:bg-primary/90 hover:shadow-lg hover:scale-105 transition-all duration-300"
                         >
                             Únete
                         </Link>
