@@ -107,7 +107,7 @@ export function HeroSection() {
                                         </span>
                                     </div>
                                     <div className="text-muted-foreground">
-                                        linux_user_group
+                                        vaslibre
                                     </div>
                                     <div className="flex items-center gap-2">
                                         <span className="text-accent">$</span>
