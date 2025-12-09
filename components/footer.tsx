@@ -46,7 +46,7 @@ export function Footer() {
 
                 <div className="mt-8 pt-8 border-t border-border text-center text-sm text-muted-foreground">
                     <p>
-                        © {new Date().getFullYear()} Linux User Group. Todos los
+                        © {new Date().getFullYear()} VaSLibre. Todos los
                         derechos reservados.
                     </p>
                     <p className="mt-2 font-mono text-xs text-accent">
